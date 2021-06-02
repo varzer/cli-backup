@@ -1,0 +1,20 @@
+{
+  "name": "cli/backup",
+  "description": "把远程mysql数据备份到本地mysql服务器上的cli工具",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^7.2"
+  },
+  "authors": [
+    {
+      "name": "SetMe",
+      "email": "randomfun@163.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "eco\\": "src"
+    }
+  }
+}
